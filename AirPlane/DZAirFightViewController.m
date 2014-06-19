@@ -140,13 +140,13 @@ static NSString* const kDZFireSpriteIdentifer = @"fire";
 {
     static int i = 0;
     i++;
-    if (i % 4 == 0) {
+    if (i % 2 == 0) {
         [self addEnemySprite];
     }
     if (i % 10 == 0) {
         [self addCloudSpriteStartY:0];
     }
-    if (self.myAirPlane && i%5 == 0) {
+    if (self.myAirPlane && i%2 == 0) {
         [self addFireSprite];
     }
 }
