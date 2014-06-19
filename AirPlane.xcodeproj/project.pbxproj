@@ -19,6 +19,30 @@
 		651DA8EB19530AB800EA1C98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651DA8D319530AB800EA1C98 /* UIKit.framework */; };
 		651DA8F319530AB800EA1C98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 651DA8F119530AB800EA1C98 /* InfoPlist.strings */; };
 		651DA8F519530AB800EA1C98 /* AirPlaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA8F419530AB800EA1C98 /* AirPlaneTests.m */; };
+		651DA90E19530AF700EA1C98 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA8FF19530AF700EA1C98 /* bullet.png */; };
+		651DA90F19530AF700EA1C98 /* bullet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90019530AF700EA1C98 /* bullet@2x.png */; };
+		651DA91019530AF700EA1C98 /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90119530AF700EA1C98 /* cloud1.png */; };
+		651DA91119530AF700EA1C98 /* cloud1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90219530AF700EA1C98 /* cloud1@2x.png */; };
+		651DA91219530AF700EA1C98 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90319530AF700EA1C98 /* cloud2.png */; };
+		651DA91319530AF700EA1C98 /* cloud2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90419530AF700EA1C98 /* cloud2@2x.png */; };
+		651DA91419530AF700EA1C98 /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90519530AF700EA1C98 /* cloud3.png */; };
+		651DA91519530AF700EA1C98 /* cloud3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90619530AF700EA1C98 /* cloud3@2x.png */; };
+		651DA91619530AF700EA1C98 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90719530AF700EA1C98 /* enemy.png */; };
+		651DA91719530AF700EA1C98 /* enemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90819530AF700EA1C98 /* enemy@2x.png */; };
+		651DA91819530AF700EA1C98 /* plane-rear-fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90919530AF700EA1C98 /* plane-rear-fire.png */; };
+		651DA91919530AF700EA1C98 /* plane-rear-fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90A19530AF700EA1C98 /* plane-rear-fire@2x.png */; };
+		651DA91A19530AF700EA1C98 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90B19530AF700EA1C98 /* plane.png */; };
+		651DA91B19530AF700EA1C98 /* plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90C19530AF700EA1C98 /* plane@2x.png */; };
+		651DA91C19530AF700EA1C98 /* Screenshot_2013-09-07-09-39-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 651DA90D19530AF700EA1C98 /* Screenshot_2013-09-07-09-39-25.png */; };
+		651DA91F19530BBB00EA1C98 /* DZAutoMoveSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA91E19530BBB00EA1C98 /* DZAutoMoveSprite.m */; };
+		651DA92219530DF600EA1C98 /* DZSence.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA92119530DF600EA1C98 /* DZSence.m */; };
+		651DA92519530E0900EA1C98 /* DZSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA92419530E0900EA1C98 /* DZSprite.m */; };
+		651DA928195312D100EA1C98 /* DZSenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA927195312D100EA1C98 /* DZSenceViewController.m */; };
+		651DA92B1953134200EA1C98 /* DZAirFightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA92A1953134200EA1C98 /* DZAirFightViewController.m */; };
+		651DA931195313CE00EA1C98 /* DZMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA92E195313CE00EA1C98 /* DZMemoryCache.m */; };
+		651DA932195313CE00EA1C98 /* DZImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA930195313CE00EA1C98 /* DZImageCache.m */; };
+		651DA935195313E400EA1C98 /* DZSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA934195313E400EA1C98 /* DZSingletonFactory.m */; };
+		651DA93819531EF800EA1C98 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DA93719531EF800EA1C98 /* HexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +72,39 @@
 		651DA8F019530AB800EA1C98 /* AirPlaneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPlaneTests-Info.plist"; sourceTree = "<group>"; };
 		651DA8F219530AB800EA1C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		651DA8F419530AB800EA1C98 /* AirPlaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlaneTests.m; sourceTree = "<group>"; };
+		651DA8FF19530AF700EA1C98 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		651DA90019530AF700EA1C98 /* bullet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet@2x.png"; sourceTree = "<group>"; };
+		651DA90119530AF700EA1C98 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		651DA90219530AF700EA1C98 /* cloud1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud1@2x.png"; sourceTree = "<group>"; };
+		651DA90319530AF700EA1C98 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		651DA90419530AF700EA1C98 /* cloud2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud2@2x.png"; sourceTree = "<group>"; };
+		651DA90519530AF700EA1C98 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		651DA90619530AF700EA1C98 /* cloud3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud3@2x.png"; sourceTree = "<group>"; };
+		651DA90719530AF700EA1C98 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		651DA90819530AF700EA1C98 /* enemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy@2x.png"; sourceTree = "<group>"; };
+		651DA90919530AF700EA1C98 /* plane-rear-fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-rear-fire.png"; sourceTree = "<group>"; };
+		651DA90A19530AF700EA1C98 /* plane-rear-fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-rear-fire@2x.png"; sourceTree = "<group>"; };
+		651DA90B19530AF700EA1C98 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		651DA90C19530AF700EA1C98 /* plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane@2x.png"; sourceTree = "<group>"; };
+		651DA90D19530AF700EA1C98 /* Screenshot_2013-09-07-09-39-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot_2013-09-07-09-39-25.png"; sourceTree = "<group>"; };
+		651DA91D19530BBB00EA1C98 /* DZAutoMoveSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZAutoMoveSprite.h; path = classes/DZAutoMoveSprite.h; sourceTree = "<group>"; };
+		651DA91E19530BBB00EA1C98 /* DZAutoMoveSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZAutoMoveSprite.m; path = classes/DZAutoMoveSprite.m; sourceTree = "<group>"; };
+		651DA92019530DF600EA1C98 /* DZSence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSence.h; sourceTree = "<group>"; };
+		651DA92119530DF600EA1C98 /* DZSence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSence.m; sourceTree = "<group>"; };
+		651DA92319530E0900EA1C98 /* DZSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSprite.h; sourceTree = "<group>"; };
+		651DA92419530E0900EA1C98 /* DZSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSprite.m; sourceTree = "<group>"; };
+		651DA926195312D100EA1C98 /* DZSenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSenceViewController.h; sourceTree = "<group>"; };
+		651DA927195312D100EA1C98 /* DZSenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSenceViewController.m; sourceTree = "<group>"; };
+		651DA9291953134200EA1C98 /* DZAirFightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZAirFightViewController.h; sourceTree = "<group>"; };
+		651DA92A1953134200EA1C98 /* DZAirFightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZAirFightViewController.m; sourceTree = "<group>"; };
+		651DA92D195313CE00EA1C98 /* DZMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMemoryCache.h; sourceTree = "<group>"; };
+		651DA92E195313CE00EA1C98 /* DZMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMemoryCache.m; sourceTree = "<group>"; };
+		651DA92F195313CE00EA1C98 /* DZImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZImageCache.h; sourceTree = "<group>"; };
+		651DA930195313CE00EA1C98 /* DZImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZImageCache.m; sourceTree = "<group>"; };
+		651DA933195313E400EA1C98 /* DZSingletonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSingletonFactory.h; sourceTree = "<group>"; };
+		651DA934195313E400EA1C98 /* DZSingletonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSingletonFactory.m; sourceTree = "<group>"; };
+		651DA93619531EF800EA1C98 /* HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColor.h; sourceTree = "<group>"; };
+		651DA93719531EF800EA1C98 /* HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +164,24 @@
 		651DA8D519530AB800EA1C98 /* AirPlane */ = {
 			isa = PBXGroup;
 			children = (
+				651DA93619531EF800EA1C98 /* HexColor.h */,
+				651DA93719531EF800EA1C98 /* HexColor.m */,
+				651DA92C195313C500EA1C98 /* cache */,
+				651DA92319530E0900EA1C98 /* DZSprite.h */,
+				651DA92419530E0900EA1C98 /* DZSprite.m */,
+				651DA8FE19530AF700EA1C98 /* resources */,
 				651DA8DE19530AB800EA1C98 /* DZAppDelegate.h */,
 				651DA8DF19530AB800EA1C98 /* DZAppDelegate.m */,
 				651DA8E119530AB800EA1C98 /* Images.xcassets */,
 				651DA8D619530AB800EA1C98 /* Supporting Files */,
+				651DA91D19530BBB00EA1C98 /* DZAutoMoveSprite.h */,
+				651DA91E19530BBB00EA1C98 /* DZAutoMoveSprite.m */,
+				651DA92019530DF600EA1C98 /* DZSence.h */,
+				651DA92119530DF600EA1C98 /* DZSence.m */,
+				651DA926195312D100EA1C98 /* DZSenceViewController.h */,
+				651DA927195312D100EA1C98 /* DZSenceViewController.m */,
+				651DA9291953134200EA1C98 /* DZAirFightViewController.h */,
+				651DA92A1953134200EA1C98 /* DZAirFightViewController.m */,
 			);
 			path = AirPlane;
 			sourceTree = "<group>";
@@ -142,6 +213,42 @@
 				651DA8F119530AB800EA1C98 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651DA8FE19530AF700EA1C98 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				651DA8FF19530AF700EA1C98 /* bullet.png */,
+				651DA90019530AF700EA1C98 /* bullet@2x.png */,
+				651DA90119530AF700EA1C98 /* cloud1.png */,
+				651DA90219530AF700EA1C98 /* cloud1@2x.png */,
+				651DA90319530AF700EA1C98 /* cloud2.png */,
+				651DA90419530AF700EA1C98 /* cloud2@2x.png */,
+				651DA90519530AF700EA1C98 /* cloud3.png */,
+				651DA90619530AF700EA1C98 /* cloud3@2x.png */,
+				651DA90719530AF700EA1C98 /* enemy.png */,
+				651DA90819530AF700EA1C98 /* enemy@2x.png */,
+				651DA90919530AF700EA1C98 /* plane-rear-fire.png */,
+				651DA90A19530AF700EA1C98 /* plane-rear-fire@2x.png */,
+				651DA90B19530AF700EA1C98 /* plane.png */,
+				651DA90C19530AF700EA1C98 /* plane@2x.png */,
+				651DA90D19530AF700EA1C98 /* Screenshot_2013-09-07-09-39-25.png */,
+			);
+			name = resources;
+			path = planes;
+			sourceTree = "<group>";
+		};
+		651DA92C195313C500EA1C98 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				651DA933195313E400EA1C98 /* DZSingletonFactory.h */,
+				651DA934195313E400EA1C98 /* DZSingletonFactory.m */,
+				651DA92D195313CE00EA1C98 /* DZMemoryCache.h */,
+				651DA92E195313CE00EA1C98 /* DZMemoryCache.m */,
+				651DA92F195313CE00EA1C98 /* DZImageCache.h */,
+				651DA930195313CE00EA1C98 /* DZImageCache.m */,
+			);
+			name = cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +299,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = stonedong;
 				TargetAttributes = {
+					651DA8CB19530AB800EA1C98 = {
+						DevelopmentTeam = 9WZQSGSX3A;
+					};
 					651DA8E619530AB800EA1C98 = {
 						TestTargetID = 651DA8CB19530AB800EA1C98;
 					};
@@ -221,6 +331,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				651DA8DA19530AB800EA1C98 /* InfoPlist.strings in Resources */,
+				651DA91219530AF700EA1C98 /* cloud2.png in Resources */,
+				651DA91C19530AF700EA1C98 /* Screenshot_2013-09-07-09-39-25.png in Resources */,
+				651DA91A19530AF700EA1C98 /* plane.png in Resources */,
+				651DA91619530AF700EA1C98 /* enemy.png in Resources */,
+				651DA91919530AF700EA1C98 /* plane-rear-fire@2x.png in Resources */,
+				651DA91719530AF700EA1C98 /* enemy@2x.png in Resources */,
+				651DA91819530AF700EA1C98 /* plane-rear-fire.png in Resources */,
+				651DA91419530AF700EA1C98 /* cloud3.png in Resources */,
+				651DA90E19530AF700EA1C98 /* bullet.png in Resources */,
+				651DA91B19530AF700EA1C98 /* plane@2x.png in Resources */,
+				651DA91519530AF700EA1C98 /* cloud3@2x.png in Resources */,
+				651DA91319530AF700EA1C98 /* cloud2@2x.png in Resources */,
+				651DA91119530AF700EA1C98 /* cloud1@2x.png in Resources */,
+				651DA90F19530AF700EA1C98 /* bullet@2x.png in Resources */,
+				651DA91019530AF700EA1C98 /* cloud1.png in Resources */,
 				651DA8E219530AB800EA1C98 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +365,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651DA92B1953134200EA1C98 /* DZAirFightViewController.m in Sources */,
+				651DA932195313CE00EA1C98 /* DZImageCache.m in Sources */,
+				651DA92219530DF600EA1C98 /* DZSence.m in Sources */,
 				651DA8E019530AB800EA1C98 /* DZAppDelegate.m in Sources */,
+				651DA91F19530BBB00EA1C98 /* DZAutoMoveSprite.m in Sources */,
+				651DA92519530E0900EA1C98 /* DZSprite.m in Sources */,
+				651DA931195313CE00EA1C98 /* DZMemoryCache.m in Sources */,
 				651DA8DC19530AB800EA1C98 /* main.m in Sources */,
+				651DA935195313E400EA1C98 /* DZSingletonFactory.m in Sources */,
+				651DA93819531EF800EA1C98 /* HexColor.m in Sources */,
+				651DA928195312D100EA1C98 /* DZSenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -360,10 +494,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhao Dong (FM9P6LZ2YK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirPlane/AirPlane-Prefix.pch";
 				INFOPLIST_FILE = "AirPlane/AirPlane-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +509,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhao Dong (FM9P6LZ2YK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirPlane/AirPlane-Prefix.pch";
 				INFOPLIST_FILE = "AirPlane/AirPlane-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
